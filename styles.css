@@ -1,0 +1,44 @@
+body{
+	margin: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+	background: #ddebf8;
+	width: 400px;
+	margin: 150px auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	color: #2b2839;
+	border-bottom: 8px solid #d8cefe;
+	
+}
+
+.chinedu-img{
+	width: 150px;
+}
+
+.chinedu-img:hover{
+	animation-name: mine;
+	animation-duration: 4s;
+  	animation-delay: 2s;
+}
+
+@keyframes mine{
+	from{width: 150px;}
+	to{width: 250px;}
+}
+
+.second-div:hover{
+	color: #bc6c25;
+}*/
+
+.dotted-border{
+	border: dotted 4px blue;
+}
+
+
+
+
